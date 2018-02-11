@@ -1,0 +1,73 @@
+.global__nav {
+	width: 100%;
+}
+
+.nav__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		font-size: 1.3rem;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	.title {
+		font-size:1.3rem;
+		overflow: hidden;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		text-decoration: none;
+	}
+
+	.linkone {
+		a:hover {
+			background-color: #ff87fb;
+		}
+	}
+
+	.linktwo {
+		a:hover {
+			background-color: #e1b78b;
+		}
+	}
+
+	.linkthree {
+		a:hover {
+			background-color: #65eaaa;
+		}
+	}
+
+	.linkfour {
+		a:hover {
+			background-color: #77acf4;
+		}
+	}
+
+	.linkfive {
+		a:hover {
+			background-color: #a276ec;
+		}
+	}
+
+	.image {
+		padding: 0.3rem;
+		padding-right: 1rem;
+	}
+
+
+	.active {
+		text-decoration: underline;
+	}
+
+}

@@ -1,0 +1,27 @@
+// links
+a {
+	background-color: transparent;
+}
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: transparent;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: transparent;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: black;
+}
+
+a:active {
+	
+}

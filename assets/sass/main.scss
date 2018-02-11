@@ -1,0 +1,23 @@
+@import 'navbar';
+
+$ff: 'arial';
+$bg: #f2f2f2;
+$ffs: 'serif';
+
+nav {
+	font-family: 'serif';
+}
+
+body {
+	margin: 0;
+	background: $bg;
+	font-family: $ff;
+}
+
+h1 {
+	padding-left: 1rem;
+}
+
+p {
+	padding-left: 1rem;
+}
