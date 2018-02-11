@@ -1,11 +1,11 @@
 @import 'navbar';
+@import 'typography';
 
-$ff: 'arial';
+$ff: 'OperatorMono';
 $bg: #f2f2f2;
-$ffs: 'serif';
 
 nav {
-	font-family: 'serif';
+	font-family: $ff;
 }
 
 body {
@@ -15,6 +15,11 @@ body {
 }
 
 h1 {
+	margin: 0;
+	padding-top: 1rem;
+	font-family: 'InMyHeart';
+	font-size: 10rem;
+	font-weight: normal;
 	padding-left: 1rem;
 }
 

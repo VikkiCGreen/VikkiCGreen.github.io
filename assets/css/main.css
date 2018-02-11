@@ -1,5 +1,6 @@
 .global__nav {
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0.5px 1px; }
 
 .nav__list {
   list-style-type: none;
@@ -9,6 +10,9 @@
   background-color: gray; }
   .nav__list li {
     float: left; }
+    @media (max-width: 894px) {
+      .nav__list li {
+        float: none; } }
   .nav__list li a {
     display: block;
     font-size: 1.3rem;
@@ -17,7 +21,7 @@
     padding: 14px 16px;
     text-decoration: none; }
   .nav__list .title {
-    font-size: 1.3rem;
+    font-weight: bold;
     overflow: hidden;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -38,15 +42,26 @@
   .nav__list .active {
     text-decoration: underline; }
 
+@font-face {
+  font-family: 'OperatorMono';
+  src: url("fonts/OperatorMono-Light.woff"); }
+@font-face {
+  font-family: 'InMyHeart';
+  src: url("fonts/Always In My Heart.woff"); }
 nav {
-  font-family: 'serif'; }
+  font-family: "OperatorMono"; }
 
 body {
   margin: 0;
   background: #f2f2f2;
-  font-family: "arial"; }
+  font-family: "OperatorMono"; }
 
 h1 {
+  margin: 0;
+  padding-top: 1rem;
+  font-family: 'InMyHeart';
+  font-size: 10rem;
+  font-weight: normal;
   padding-left: 1rem; }
 
 p {
